@@ -1,0 +1,16 @@
+{
+  "references": {
+    "property1": "string",
+    "property2": "string"
+  },
+  "name": "string",
+  "bsds": [
+    "string"
+  ],
+  "created": "string",
+  "is_active": true,
+  "modified": "string",
+  "organization_guid": "string",
+  "role": "string",
+  "guid": "string"
+}

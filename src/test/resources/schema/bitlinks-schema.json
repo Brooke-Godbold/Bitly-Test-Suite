@@ -1,0 +1,23 @@
+{
+  "references": {
+    "property1": "string",
+    "property2": "string"
+  },
+  "archived": true,
+  "tags": [
+    "string"
+  ],
+  "created_at": "string",
+  "title": "string",
+  "deeplinks": [
+    {}
+  ],
+  "created_by": "string",
+  "long_url": "string",
+  "client_id": "string",
+  "custom_bitlinks": [
+    "string"
+  ],
+  "link": "string",
+  "id": "string"
+}
