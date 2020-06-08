@@ -14,22 +14,12 @@
         <cucumber.version>5.6.0</cucumber.version>
         <rest.assured.version>4.3.0</rest.assured.version>
         <assertj.version>3.4.1</assertj.version>
-        <junit.jupiter.version>5.6.2</junit.jupiter.version>
         <cluecumber.version>2.5.0</cluecumber.version>
         <google.gson.version>2.8.5</google.gson.version>
-        <jsoup.version>1.13.1</jsoup.version>
         <maven.surefire.version>3.0.0-M4</maven.surefire.version>
     </properties>
 
     <dependencies>
-
-        <!-- JUnit 5 Dependencies -->
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>${junit.jupiter.version}</version>
-            <scope>test</scope>
-        </dependency>
 
         <!-- RestAssured Dependencies -->
         <dependency>
@@ -38,8 +28,6 @@
             <version>${rest.assured.version}</version>
             <scope>test</scope>
         </dependency>
-
-        <!-- RestAssured Schema Validator Dependencies -->
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>json-schema-validator</artifactId>
@@ -66,12 +54,6 @@
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit</artifactId>
             <version>${cucumber.version}</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.vintage</groupId>
-            <artifactId>junit-vintage-engine</artifactId>
-            <version>${junit.jupiter.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
