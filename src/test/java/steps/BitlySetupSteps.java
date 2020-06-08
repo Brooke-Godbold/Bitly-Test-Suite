@@ -3,7 +3,7 @@ package steps;
 import io.cucumber.java8.En;
 import io.restassured.RestAssured;
 import io.restassured.config.RestAssuredConfig;
-import request.RequestBuiler;
+import request.RequestBuilder;
 import util.TestUtils;
 
 import static io.restassured.RestAssured.given;
@@ -40,7 +40,7 @@ public class BitlySetupSteps extends BitlyBaseSteps implements En {
         });
 
         Given("I have a Request", () -> {
-            testState.request = new RequestBuiler();
+            testState.request = new RequestBuilder();
         });
 
         Given("my Request has a {string} of {string}", (String parameter, String value) -> {

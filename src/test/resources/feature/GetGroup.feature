@@ -1,6 +1,9 @@
-Feature: feature
+Feature: Test the Get Group Bitly API
+  The Get Group API returns the details of a Group for a supplied Group GUID.
+  It requires correct Authorization and Content-Type Headers.
 
-  Background: background
+
+  Background: As a User, I need to connect to one of the Bitly APIs
     Given I want to connect to an API
 
   Scenario: I make a Request to Get a Group by it's GUID

@@ -6,12 +6,12 @@ import com.google.gson.GsonBuilder;
 import java.util.HashMap;
 import java.util.Map;
 
-public class RequestBuiler {
+public class RequestBuilder {
 
     private final Map<String, String> jsonMap;
 
-    public RequestBuiler() {
-        jsonMap = new HashMap<String, String>();
+    public RequestBuilder() {
+        jsonMap = new HashMap<>();
     }
 
     public void setParameter(String parameter, String value) {

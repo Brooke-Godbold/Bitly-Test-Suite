@@ -1,6 +1,11 @@
-Feature: feature
+Feature: Test the Get and Sort Bitlinks API
+  The Get Sorted Bitlinks API returns the Bitlinks associated with a supplied Group, sorted by the supplied methods.
+  It requires correct Authorization and Content-Type Headers.
+  It has a single Enum it can take in the Request, which is 'clicks'.
+  It can take multiple Query Parameters, which default to a base value if not supplied.
 
-  Background: background
+
+  Background: As a User, I need to connect to one of the Bitly APIs
     Given I want to connect to an API
 
   Scenario Outline: I make a Request to Sort the Bitlinks of a given Group with Query Parameters
